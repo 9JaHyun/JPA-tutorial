@@ -16,7 +16,7 @@ public class _01_N_by_1 {
     }
 
     public void testing1() {
-        EntityManager em = this.emf.createEntityManager();
+        EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
 
         tx.begin();
@@ -39,7 +39,7 @@ public class _01_N_by_1 {
     }
 
     public void testing2() {
-        EntityManager em = this.emf.createEntityManager();
+        EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         Team team2 = new Team("team2");
