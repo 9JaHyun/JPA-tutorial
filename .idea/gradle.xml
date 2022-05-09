@@ -66,6 +66,24 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/_09_value_type" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/_09_value_type" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/_10_JPQL1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/_10_JPQL1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
