@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/_08_proxy" />
     <file type="web" url="file://$PROJECT_DIR$/_09_value_type" />
     <file type="web" url="file://$PROJECT_DIR$/_10_JPQL1" />
+    <file type="web" url="file://$PROJECT_DIR$/_11_JPQL2" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

@@ -1,4 +1,4 @@
-package com.book._10_jpql1.entity;
+package com.book._11_jpql2.entity;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,7 @@
-package com.book._10_jpql1.entity;
+package com.book._11_jpql2.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -18,7 +19,7 @@ public class Member {
     private String name;
     private int age;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "team_id")
     private Team team;
 
@@ -26,7 +27,7 @@ public class Member {
         this.team = team;
 
         if (!team.getMembers().contains(this)) {
-            team.getMembers().add(this);
+            team.addMember(this);
         }
     }
 }
